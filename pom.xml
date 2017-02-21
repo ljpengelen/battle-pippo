@@ -11,9 +11,7 @@
     <name>Pippo</name>
 
     <properties>
-        <pippo>
-            <version>1.2.0</version>
-        </pippo>
+        <pippoVersion>1.2.0</pippoVersion>
     </properties>
 
     <build>
@@ -43,7 +41,7 @@
         <dependency>
             <groupId>ro.pippo</groupId>
             <artifactId>pippo</artifactId>
-            <version>${pippo.version}</version>
+            <version>${pippoVersion}</version>
             <type>pom</type>
         </dependency>
     </dependencies>
