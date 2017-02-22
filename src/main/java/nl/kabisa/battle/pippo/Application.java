@@ -13,6 +13,6 @@ public class Application extends ControllerApplication {
 
     public static void main(String[] args) {
         Pippo pippo = new Pippo(new Application());
-        pippo.start();
+        pippo.start(8080);
     }
 }

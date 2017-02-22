@@ -3,13 +3,23 @@
   <title>Posts</title>
 </head>
 <body>
+  <p>Add post</p>
   <form method="post" action="/posts/new">
-    <input type="text" name="content"></input>
+      <p>Content</p>
+      <input type="text" name="content">
+      <p>User</p>
+      <input type="text" name="user">
+      <input type="submit" name="Create">
   </form>
+  <p>List of posts</p>
   <ul>
   <#list posts as post>
-    <li>${post}</li>
+    <li>${post.content} - ${post.user}</li>
   </#list>
   </ul>
+  <form method="get" action="/posts/search">
+      <input type="text" name="user">
+      <input type="submit" name="Search">
+  </form>
 </body>
 </html>
