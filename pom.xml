@@ -44,5 +44,15 @@
             <version>${pippoVersion}</version>
             <type>pom</type>
         </dependency>
+        <dependency>
+            <groupId>ro.pippo</groupId>
+            <artifactId>pippo-controller</artifactId>
+            <version>${pippoVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>ro.pippo</groupId>
+            <artifactId>pippo-freemarker</artifactId>
+            <version>${pippoVersion}</version>
+        </dependency>
     </dependencies>
 </project>
